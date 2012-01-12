@@ -1,2 +1,5 @@
 .project
-
+.DS_Store
+*.crx
+*.pem
+extension.zip
