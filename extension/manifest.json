@@ -1,0 +1,15 @@
+{
+	"name": "Android source link",
+	"version": "0.0.1",
+	"description": "inject source code link in android reference page",
+	"content_scripts": [
+		{
+			"matches": ["http://developer.android.com/reference/*"],
+			"js": ["jquery.js", "content_script.js"]
+		}
+	],
+	"icons": {
+		"48": "icon48.png" ,
+		"128": "icon128.png"
+	}
+}
