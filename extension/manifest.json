@@ -4,7 +4,7 @@
 	"description": "inject source code link in android reference page",
 	"content_scripts": [
 		{
-			"matches": ["http://developer.android.com/reference/*"],
+			"matches": ["http://developer.android.com/reference/*", "http://developer.android.com/intl/ja/reference/*"],
 			"js": ["jquery.js", "content_script.js"]
 		}
 	],
